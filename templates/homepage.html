@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <nav class="navbar navbar-expand-sm  bg-info navbar-dark">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <!-- <a class="nav-link active" href="#">Active</a> -->
+        </li>
+        <li class="nav-item">
+              <a href="/" class="btn btn-custom nav-link">&#127968 Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ url_for("charts") }}" class="btn btn-custom nav-link">&#128202 Charts</a>
+         
+        </li>
+        <li class="nav-item">
+          <a href="{{ url_for("predict") }}" class="btn btn-custom nav-link">🎯 Predict</a>
+         
+        </li>      
+        
+      </ul>
+    </div>
+  </nav>
+  <div>
+    <h1>Heart & Vascular Health <picture>
+      <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fac0/512.webp" type="image/webp">
+      <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fac0/512.gif" alt="🫀" width="30" height="30">
+    </picture></h1>
+    
+  </div>
+</head>
+
+  <body style ="background-color:#cfe0ef">
+    <div>
+      <table>
+        <tr height="200">
+          <td width="60%" height="200">
+            <h3>
+              Health has never been so important
+            </h3>
+            <p>
+              How can you keep your heart healthy? — This is a question many of us ask ourselves, especially if heart disease runs in your family, as it does in mine. According to the CDC, heart disease is the leading cause of death for both men and women. Every year roughly 735,000 Americans have a heart attack. Although there are risk factors that you cannot control such as age, sex, or family history, you do not have to accept heart disease as your fate. By adopting a healthy lifestyle today you can avoid potential heart disease in the future. Here’s a list of habits that you can, and should, incorporate or change in your life for optimal heart health and well-being.
+            </p>
+          </td>
+          <td width="40%" height="200" align="center">
+            <img src="static\Images\hme1.webp" alt="Cholesterol Levels" width="400" height="300">
+          </td>
+        </tr>
+        <tr>
+          <td width="40%" height="200"   align="center" >
+            <img src="static\Images\hme2.jpg" alt="Cholesterol Levels" width="400" height="300">
+          </td>
+          <td width="60%" height="300">
+            <h3>
+              Prioritize Heart Health: The Importance of Regular Screening
+            </h3>
+            <p>
+             
+Checking for heart health is crucial for maintaining overall well-being and longevity. The heart is the powerhouse of our body, tirelessly pumping blood to every organ and tissue, supplying essential nutrients and oxygen. Regular screenings can detect early signs of cardiovascular issues like high blood pressure, cholesterol levels, or irregular heart rhythms, allowing for timely interventions to prevent more severe conditions such as heart disease or stroke. By prioritizing heart health, individuals can adopt healthier lifestyles, including balanced diets, regular exercise, and stress management techniques, ultimately promoting a better quality of life and reducing the risk of cardiovascular-related complications. Regular check-ups serve as proactive measures, empowering individuals to take control of their heart health and make informed decisions to safeguard their vitality.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    
+    <div class='footer' style ="position: fixed; left: 0; bottom: 0; width: 100%;background-color:#2d3b45;;color: white; text-align: center;">       
+        <p class='footer-description'>Made By Group5</p>
+    </div>
+
+  </body>
+  </html>
+  
+  <style>
+    /* CSS to change the font color of navbar links */
+    .navbar-nav .nav-link {
+        color: #fff; 
+    }
+  </style>
